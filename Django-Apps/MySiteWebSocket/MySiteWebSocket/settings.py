@@ -75,10 +75,11 @@ ASGI_APPLICATION = "MySiteWebSocket.asgi.application"
 
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {
-            "hosts": [("ip172-18-0-12-cj4ihcksnmng00ej8kmg-6379.direct.labs.play-with-docker.com", 80)],
-        },
+        "BACKEND": "channels.layers.InMemoryChannelLayer",
+        # "BACKEND": "channels_redis.core.RedisChannelLayer",
+        # "CONFIG": {
+        #     "hosts": [("ip172-19-0-8-cj56e8ssnmng00djoec0-6379.direct.labs.play-with-docker.com", 6379)],
+        # },
     },
 }
 
