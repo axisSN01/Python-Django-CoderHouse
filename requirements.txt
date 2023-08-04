@@ -31,3 +31,9 @@ typing_extensions==4.7.1
 tzdata==2023.3
 whitenoise==6.5.0
 zope.interface==6.0
+django-cors-headers
+django-shortuuidfield
+djangorestframework
+djangorestframework-simplejwt
+Pillow
+shortuuid
