@@ -26,6 +26,7 @@ const ChatBody = ({ match, currentChattingMember, setOnlineUserList }) => {
           Constants.CHAT_ID_PLACE_HOLDER,
           currentChatId
         ) + "?limit=20&offset=0";
+        console.log(url); // be carefull with the password complexity, it doenst show warning and trow bad request (code 400)
       const chatMessages = await ApiConnector.sendGetRequest(url);
       setMessages(chatMessages);
     }
