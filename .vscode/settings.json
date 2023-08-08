@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "\\subscriptions\\d48757d4-32c4-4a35-a673-8aaa098dd539\\resourceGroups\\python-django-webapp-quickstart-RG\\providers\\Microsoft.Web\\sites\\python-django-webapp-quickstart-My",
+    "appService.deploySubpath": ""
+}
